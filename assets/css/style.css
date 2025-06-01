@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Roboto',sans-serif;
 }
+section{
+    background-color: #f5f5f5;
+}
 /*nav + Header*/
 header{
     height: 100vh;
@@ -24,18 +27,20 @@ header{
     background-color: #fff;
     transition: all ease-in-out .5s;
 }
+.nav-link.active,
+.nav-link:focus {
+  color: #fff !important;
+}
 .nav-link:hover::before,
-.nav-link:active, .nav-link:active
-{
+.nav-link:active, .nav-link:active{
     width: 40%;
 }
-.nav-link.active, .nav-link:active{
-    color: rgba(255,255,255) !important;
+.nav-link.active::before {
+    width: 40%;
 }
 .nav-link:hover{
     color: rgba(255,255,255,0.75);
 }
-
 .hero{
     background-image: url('../imgs/morgan.jpg');
     background-size: cover;
@@ -59,6 +64,9 @@ header{
     background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") ;
 }
 
+#about{
+    padding-block: 64px ;
+}
 @media screen and (max-width: 768px) {
     .hero .hero-layer .info h1  {
         font-size: 3rem;
