@@ -119,6 +119,7 @@ header{
     padding: 16px;
     border: none;
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
     h2 {
         font-weight: 500;
         padding: 0.4rem 0;
@@ -134,11 +135,29 @@ header{
         margin: 0 auto;
     }
 }
-#services .card .card-img svg {
-    color: #0D6EFD;
-    font-size: 50px;
+#services .card .card-img{
+    border: 0.5rem solid #0078ff;
+    border-radius: 50%;
+    transition: all .5s ease;
+    color: #1e1e1e;
+    position: relative;
 }
-#services .card:hover .card-img svg {
+#services .card .card-img svg {
+    color: #1e1e1e;
+    font-size: 35px;
+    width: 100%;
+    position: absolute;
+    left:0;
+    top:32%;
+}
+#services .card:hover{
+    .card-img svg{
+        color: #fff;
+    }
+    .card-img{
+        background-color:#0078ff ;
+        border: .5rem solid #CDE1F8 ;
+    }
 }
 @media screen and (max-width: 768px) {
     .hero .hero-layer .info h1  {
