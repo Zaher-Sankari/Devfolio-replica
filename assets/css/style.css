@@ -159,6 +159,22 @@ header{
         border: .5rem solid #CDE1F8 ;
     }
 }
+#work{
+   min-height: 100vh;
+}
+#work .wrapper {
+    background-image: url("./../imgs/counters-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#work .wrapper .bg-layer {
+  background-color: rgba(0, 120, 255, 0.5);
+  height: 100%;
+}
 @media screen and (max-width: 768px) {
     .hero .hero-layer .info h1  {
         font-size: 3rem;
