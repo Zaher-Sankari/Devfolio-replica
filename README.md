@@ -1,3 +1,3 @@
 # Devfolio-replica
 https://raniamhelmy.github.io/DevFolioPersonalTemplateBootstrap/
-https://raniamhelmy.github.io/DevFolioPersonalTemplateBootstrap/#about
+https://github.com/raniamhelmy/DevFolioPersonalTemplateBootstrap
