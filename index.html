@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Devfolio</title>
@@ -22,7 +23,7 @@
       <div class="navbar-nav">
         <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0 active" aria-current="page" href="#home">HOME</a>
         <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0" href="#about">ABOUT</a>
-        <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0" href="#">SERVICES</a>
+        <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0" href="#services">SERVICES</a>
         <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0" href="#">WORK</a>
         <a class="nav-link fs-5 pe-md-4 pe-lg-5 ps-0" href="#">BLOG</a>
         <a class="nav-link fs-5 ps-0" href="#">CONTACT</a>
@@ -40,80 +41,15 @@
     </div>
 </div>
     </header>
-    <!-- <section id="about">
-  <div class="container-fluid d-flex justify-content-center bg-white">
-    <div class="d-flex w-100 justify-content-between" style="max-width: 1140px;">
-      <div class="left-container col-md-6 px-3" style="width: 48%;">
-        <div class="info-wrapper d-sm-flex d-flex">
-          <div class="info-img w-50 col-md-3">
-            <img class="rounded" src="./assets/imgs/about-avatar.jpg" alt="Avatar">
-          </div>
-          <div class="personal-info w-50 col-md-3">
-            <p><span class="fw-bold">Name: </span>Morgan Freeman</p>
-            <p><span class="fw-bold">Profile: </span>Full Stack Developer</p>
-            <p><span class="fw-bold">Email: </span>contact@example.com</p>
-            <p><span class="fw-bold">Phone: </span>(617) 557-0089</p>
-          </div>
-        </div>
-
-        <div class="skills mt-4">
-          <p class="fw-bold">Skills</p>
-          <div class="mb-2 d-flex justify-content-between">
-            <span>HTML</span>
-            <span>85%</span>
-          </div>
-          <div class="progress mb-3">
-            <div class="progress-bar bg-primary" style="width: 85%"></div>
-          </div>
-          <div class="mb-2 d-flex justify-content-between">
-            <span>CSS</span>
-            <span>75%</span>
-          </div>
-          <div class="progress mb-3">
-            <div class="progress-bar bg-primary" style="width: 75%"></div>
-          </div>
-          <div class="mb-2 d-flex justify-content-between">
-            <span>PHP</span>
-            <span>50%</span>
-          </div>
-          <div class="progress mb-3">
-            <div class="progress-bar bg-primary" style="width: 50%"></div>
-          </div>
-          <div class="mb-2 d-flex justify-content-between">
-            <span>JAVASCRIPT</span>
-            <span>90%</span>
-          </div>
-          <div class="progress mb-3">
-            <div class="progress-bar bg-primary" style="width: 90%"></div>
-          </div>
-        </div>
-      </div>
-      <div class="about-me px-3" style="width: 48%;">
-        <h1 class="mb-4">About Me</h1>
-        <p class="fw-light fs-5" style="color: #4e4e4e;">
-          Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.
-        </p>
-        <p class="fw-light fs-5" style="color: #4e4e4e;">
-          Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-        </p>
-        <p class="fw-light fs-5" style="color: #4e4e4e;">
-          Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-        </p>
-      </div>
-    </div>
-  </div>
-</section> -->
-
 <section id="about">
-  <div class="container-fluid d-flex justify-content-center bg-white py-5">
-    <div class="row w-100 justify-content-between" style="max-width: 1140px;">
-
-      <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
-        <div class="info-wrapper row align-items-center">
-          <div class="col-12 col-sm-auto text-center text-sm-start mb-3 mb-sm-0">
+  <div class=" rounded container d-flex justify-content-center bg-white py-5">
+    <div class="row w-100 justify-content-between">
+      <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 pe-3">
+        <div class="info-wrapper row">
+          <div class="col-12 col-sm-auto text-center text-sm-start mb-3 mb-sm-0 w-50">
             <img class="rounded img-fluid" src="./assets/imgs/about-avatar.jpg" alt="Avatar" style="max-width: 150px;">
           </div>
-          <div class="col-12 col-sm">
+          <div class="col-12 col-sm pl-4">
             <p><span class="fw-bold">Name: </span>Morgan Freeman</p>
             <p><span class="fw-bold">Profile: </span>Full Stack Developer</p>
             <p><span class="fw-bold">Email: </span>contact@example.com</p>
@@ -155,7 +91,7 @@
       </div>
 
       <div class=" about-me col-lg-6 col-md-12">
-        <h1 class="mb-4">About Me</h1>
+        <h1 class="mb-4 fw-normal">About Me</h1>
         <p class="fw-light fs-5" style="color: #4e4e4e;">
           Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.
         </p>
@@ -165,6 +101,73 @@
         <p class="fw-light fs-5" style="color: #4e4e4e;">
           Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
         </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services">
+  <div class="services-info w-100 d-flex flex-column justify-content-center align-items-center">
+    <h1 class="fw-bold">SERVICES</h1>
+    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</P>
+  </div>
+  <div class="container text-center mb-5 mx-auto">
+    <div class="row">
+      <div class="col-10 col-md-4 mx-auto mt-5">
+        <div class="card rounded">
+          <div class="card-img py-3">
+            <!-- <img src="https://placehold.co/100x100" alt=""> -->
+             <i class="fa-solid fa-display"></i>
+          </div>
+          <h2 class="py-2 text-uppercase">web design</h2>
+          <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+        </div>
+      </div>
+           <div class="col-10 col-md-4 mx-auto mt-5">
+        <div class="card rounded">
+          <div class="card-img py-3">
+            <img src="https://placehold.co/100x100" alt="">
+          </div>
+          <h2 class="py-2 text-uppercase">web development</h2>
+          <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+        </div>
+      </div>
+           <div class="col-10 col-md-4 mx-auto mt-5">
+        <div class="card rounded">
+          <div class="card-img py-3">
+            <img src="https://placehold.co/100x100" alt="">
+          </div>
+          <h2 class="py-2 text-uppercase">photography</h2>
+          <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+        </div>
+      </div>
+    </div>
+        <div class="row">
+      <div class="col-10 col-md-4 mx-auto mt-5">
+        <div class="card rounded">
+          <div class="card-img py-3">
+            <img src="https://placehold.co/100x100" alt="">
+          </div>
+          <h2 class="py-2 text-uppercase">responsive design</h2>
+          <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+        </div>
+      </div>
+           <div class="col-10 col-md-4 mx-auto mt-5">
+        <div class="card rounded">
+          <div class="card-img py-3">
+            <img src="https://placehold.co/100x100" alt="">
+          </div>
+          <h2 class="py-2 text-uppercase">graphic design</h2>
+          <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+        </div>
+      </div>
+           <div class="col-10 col-md-4 mx-auto mt-5">
+        <div class="card rounded">
+          <div class="card-img py-3">
+            <img src="https://placehold.co/100x100" alt="">
+          </div>
+          <h2 class="py-2 text-uppercase">marketing services</h2>
+          <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -190,5 +193,6 @@
     </style>
     <script src="./assets/js/text.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
