@@ -97,17 +97,18 @@ header{
     background-color:#0D6EFD ;
 
 }
-#services{
+#services, #portfolio{
     background-color:#f5f5f5 ;
 }
-#services .services-info{
+#services .services-info ,#portfolio .portfolio-info{
     position: relative;
 
     h1{
         font-size: 3rem;
     }
 }
-#services .services-info::after{
+#services .services-info::after,
+#portfolio .portfolio-info::after{
     content: '';
     bottom: 0;
     left: 50%;
@@ -159,10 +160,27 @@ header{
         border: .5rem solid #CDE1F8 ;
     }
 }
-#work{
-   min-height: 100vh;
+.work{
+   .container {
+    padding-block:6.25rem ;
+   }
+   .service_icon{
+        background-color: transparent;
+        border: 0.5rem solid #fff;
+        color: #fff;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 2.5rem;
+
+    svg{
+        font-size: 35px;
+        width: 100%;
+    }
+   }
 }
-#work .wrapper {
+.work .wrapper {
     background-image: url("./../imgs/counters-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,7 +189,7 @@ header{
     height: 100%;
 }
 
-#work .wrapper .bg-layer {
+.work .wrapper .bg-layer {
   background-color: rgba(0, 120, 255, 0.5);
   height: 100%;
 }
