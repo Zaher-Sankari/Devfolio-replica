@@ -193,6 +193,58 @@ header{
   background-color: rgba(0, 120, 255, 0.5);
   height: 100%;
 }
+#portfolio .card{
+    overflow: hidden;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.6), 0 2px 5px 0 rgb(0, 0, 0, 0.2);
+
+}
+#portfolio .card-text {
+    padding-top:32px ;
+    padding-bottom: 10px;
+    h2{
+        font-size: 1.2rem;
+        color: #4e4e4e;
+    }
+    p{
+        font-size: .8rem;
+        span{
+            color: #0078ff  ;
+        }
+    }
+}
+#portfolio .card-info .card-plusIcon{
+    background-color: transparent;
+    border:1px solid #0078ff;
+    color: #0078ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.5rem;
+    transition: all .25s ease-in-out ;
+}
+#portfolio .card-info .card-plusIcon:hover{
+    background-color: #0078ff;
+    color: #fff;
+}
+#portfolio .card-info .card-plusIcon:focus{
+    background-color: #0078ff;
+    color: #fff;
+    outline: 1rem solid #CDE1F8 ;
+}
+#portfolio .card-info .card-plusIcon svg{
+    font-size: 15px;
+    width: 100%;
+}
+#portfolio .card-img{
+    transition: all .5s ease-in-out;
+    
+}
+#portfolio .card-img:hover{
+    transform: scale(1.2);
+}
+
+/*Media Query*/
 @media screen and (max-width: 768px) {
     .hero .hero-layer .info h1  {
         font-size: 3rem;
